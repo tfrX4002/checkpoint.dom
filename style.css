@@ -1,0 +1,15 @@
+table, tr, td{
+    border: 1px solid black;
+
+}
+.container{
+    display: flex;
+
+}
+.box{
+    border: 1px solid black;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+}
+

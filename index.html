@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkpoint-dom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Panier</h1>
+    <div class="container">
+        <table>
+        <thead></thead>
+            <tr>
+                <td>Nom de l'article</td>
+                <td>Quantity</td>
+                <td>Price unitary</td>
+                <td>Sous-total</td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody id="all_product">  
+            <tr>
+                <td class="article_name"><div ></div>sac de riz</td>
+                <td>
+                    <button id="btnMinus">-</button>
+                    <span id="quantity">1</span>
+                    <button id="btnPlus">+</button></td>
+                <td class="unitPrice">15000 fr</td>
+                <td class="subTotal">15000</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td><input type="text" name="" id="name_product" placeholder="Nom de l'article"contenteditable></td>
+                <td><input type="text" step="1" id="price_product" value="100fr"contenteditable></td>
+                <td></td>
+                <td><button type="button" id="add_button">Ajouter un article</button></td>
+            </tr>
+        </tfoot>
+        </table>
+
+    </div>
+    <h2 id="total_price">Total : </h2>
+    <script src="./cours-dom.js"></script>
+</body>
+
+</html>
